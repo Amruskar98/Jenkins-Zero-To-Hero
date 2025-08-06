@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-image: myapp:replaceImageTag
+image: myapp:5
 metadata:
   name: spring-boot-app
   labels:
