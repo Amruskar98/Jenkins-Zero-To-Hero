@@ -9,11 +9,11 @@ pipeline {
   stages {
  
     stage('Checkout') {
-      steps {
-        echo 'Checkout stage passed'
-        // git branch: 'main', url: 'https://github.com/Amruskar98/Jenkins-Zero-To-Hero.git'
-      }
-    }
+     steps {
+        git branch: 'main',
+        url: 'https://github.com/Amruskar98/Jenkins-Zero-To-Hero.git'
+  }
+}
  
     stage('Build and Test') {
       steps {
